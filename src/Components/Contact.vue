@@ -18,14 +18,14 @@
 
 <script>
 export default {
-  data() {
-    return {
-      useId: this.$route.params.id
-    }
-  },
+  // data() {
+  //   return {
+  //     useId: this.$route.params.id,
+  //   }
+  // },
   methods: {
     goBackAbout() {
-      this.$router.push('/')
+      this.$router.push({name: 'about'})
     },
     goToNotes() {
       this.$router.push('/contact/show')
@@ -33,7 +33,7 @@ export default {
   },
   created() {
     console.log('route: ', this.$route)
-  }
+  },
 }
 </script>
 
