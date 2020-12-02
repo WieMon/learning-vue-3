@@ -4,7 +4,7 @@
       <h3>Hello</h3>
       <nav>
         <span><router-link to='/' tag='span' exact >About</router-link></span>
-        <span><router-link to='/about' tag='span' exact >Contact</router-link></span>
+        <span><router-link to='/contact' tag='span' exact >Contact</router-link></span>
       </nav>
     </header>
   </div>
@@ -34,5 +34,6 @@ nav {
 
 span {
   padding: 5px 20px;
+  cursor: pointer;
 }
 </style>
