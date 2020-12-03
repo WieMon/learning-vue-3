@@ -1,5 +1,18 @@
 # learning-vue-3
 
+# Description
+My training repositorium for Vue.js.
+
+## Table of contents:
+- VueRouter: routes, history mode, scrollBehavior
+- routes to: components, home site, all, using params
+
+
+## Technologies:
+- vue: 2.5.11
+- webpack: 3.6.0
+
+
 > A Vue.js project
 
 ## Build Setup
