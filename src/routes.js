@@ -12,6 +12,7 @@ export const routes = [
   { path: '/contact',component: ContactComp, children:[
     {path: 'show', component: ContactNotesComp, name: 'contactProfile'}
     ]
-  }
+  },
+  { path: '*', component: AboutComp}
 ]
 

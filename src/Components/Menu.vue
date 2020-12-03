@@ -4,12 +4,13 @@
    <p>
       {{ useId }}
     </p>
+
   <router-link
       :to="{
         name:'contactProfile',
         params:{id:userId},
         //query: { user:1, something:'hello'},
-        //hash:'#somecontent'
+        hash:'#somecontent'
         }">
       Go to my profile
     </router-link>
